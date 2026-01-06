@@ -21,7 +21,7 @@ def init_book(create_frame, show):
 
     tk.Label(
         book_head,
-        text="📚 Interactive Python Book",
+        text="📚 Python Book",
         bg=COLORS["sidebar"],
         fg="white",
         font=FONT_UI,
@@ -68,3 +68,4 @@ def init_book(create_frame, show):
         book_view.config(state="disabled")
 
     lb.bind("<<ListboxSelect>>", load_topic)
+
